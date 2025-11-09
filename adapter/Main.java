@@ -14,11 +14,8 @@ public class Main {
 		pacient.addSymptomByName("disnea", 2);
 		pacient.addSymptomByName("cefalea", 1);
 		pacient.addSymptomByName("astenia", 3);
-		
 		pacient.addSymptomByName("mareos", 1);
 		pacient.addSymptomByName("nauseas", 2);
-		pacient.addSymptomByName("vómitos", 3);
-
         
 		InvertedIterator adapter = new Covid19PacientAdapter(pacient);
 

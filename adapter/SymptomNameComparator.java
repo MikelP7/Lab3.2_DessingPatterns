@@ -13,3 +13,4 @@ public class SymptomNameComparator implements Comparator<Object> {
         return s1.getName().compareTo(s2.getName());
     }
 }
+

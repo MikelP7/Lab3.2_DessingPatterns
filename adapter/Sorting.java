@@ -9,6 +9,7 @@ import domain.Symptom;
 
 
 public class Sorting {
+	
 	public static Iterator<Object> sortedIterator(InvertedIterator it, Comparator<Object> comparator) {
 	      List<Object> list = new ArrayList<>();
 	      it.goLast();
